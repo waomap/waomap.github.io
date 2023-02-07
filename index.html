@@ -204,6 +204,8 @@
                 "x": 567,
                 "y": 620
             }];
+            // Hide original alliances
+            alliances = [];
             alliances.forEach(alliance => {
                 document.getElementById("alliances").appendChild(allianceLi(alliance.name, alliance.x, alliance.y));
             });
